@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
-    username: root
-    password: root
+    url: jdbc:mysql://rds-pri.cdsm0tvbt6jn.ap-northeast-2.rds.amazonaws.com/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: admin
+    password: qwer1234
     driver-class-name: com.mysql.cj.jdbc.Driver
